@@ -1,0 +1,44 @@
+# Entornos y temporales de Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Credenciales
+.env
+.env.*
+!.env.example
+secrets.toml
+credentials*.json
+*.pem
+*.key
+
+# Corridas y checkpoints intermedios
+results/runs/
+results/checkpoints/
+resultados_colab/
+*.tmp
+*.log
+execution.log
+
+# Temporales de LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Source data with redistribution terms not confirmed
+data/snapshots/mercado_yahoo_finance_*.csv
+data/snapshots/embi_colombia_bcrpdata_*.csv
+
+# Generated local app artifacts
+app/model.joblib
+app/data/*.csv
+app/app_metadata.json
